@@ -9,6 +9,23 @@ h1 {
     font-weight: 900;
 }
 
+/* Navbar section */
+
+.navbar{
+    margin: 0 auto 3.5rem;
+}
+
+.navbar-brand{
+    font-size:2.5rem;
+    font-family: 'Ubuntu';
+}
+
+.nav-link{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
 
 /* Title section */
 
@@ -24,37 +41,25 @@ h1 {
 }
 
 .img-phone{
+    width: 16%;
+    height: 69%;
     transform: rotate(25deg);
-    width: 60%;
+    position: absolute;
+    right: 30%;
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 2% 15% 13%;
 }
 
-
-/* Navbar section */
-
-.navbar{
-    margin: 0 auto 3.5rem auto;
-}
-
-.navbar-brand{
-    font-size:2.5rem;
-    font-family: 'Ubuntu';
-}
-
-.nav-link{
-    padding: 1.5rem;
-    font-size: 1.2rem;
-    font-family: 'Montserrat';
-}
 
 /* Features Section */
 
 #features{
-    margin: 9% auto;
+    padding: 7% 15%;
     text-align: center;
+    background-color: #fff;
+    position: relative;
 }
 
 #features h3{
@@ -113,4 +118,14 @@ h1 {
 #press img{
     width: 12%;
     margin: 20px 20px 50px; /*top-right,left-bottom*/
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 3% 2%;
+}
+
+.card{
+    width: 23rem;
 }
