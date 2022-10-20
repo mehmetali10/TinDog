@@ -49,7 +49,7 @@ h1 {
 }
 
 .container-fluid{
-    padding: 2% 15% 13%;
+    padding: 5% 15% 5%;
 }
 
 
@@ -129,3 +129,71 @@ h1 {
 .card{
     width: 23rem;
 }
+
+
+
+/* Call to Action */
+
+#cta{
+    padding: 800px auto;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#cta h3{
+    padding-top: 120px;
+    font-family: 'Montserrat-Bold';
+    color: #fff;
+    font-size: 3.5rem;  
+    line-height: 1.5; 
+}
+
+#cta button{
+margin: 5% 1% 5% 0;
+padding: 13px;
+}
+
+
+
+/* Footer */
+
+#footer{
+    margin: 110px auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+#footer i{
+   margin: 10px;
+   color: #8f8f8f;
+}
+
+#footer p {
+    margin-top: 32px;
+    color:darkgray;
+}
+
+
+
+
+
+
+
+
+/* responsive settings */
+
+@media (max-width:990px) {
+    .img-phone{
+    transform : rotate(0deg);
+    position : static;
+    width: 50%;
+    height: 90%;
+    margin: 40px 100px 0;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+}
+
